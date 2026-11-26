@@ -8,3 +8,29 @@ __pycache__/
 data/raw/
 data/processed/
 models/
+
+# Downloaded archives
+/E1_*.zip
+
+# Temporary setup directory
+/E1_Kiwoom_REST_Setup/
+
+# Financial datasets
+/data/
+
+# Generated experiment artifacts
+/artifacts/agent_smoke/
+/artifacts/evaluation/
+/artifacts/experiment_plans/
+/artifacts/step_4_4_review/
+/artifacts/tracked_training/
+/artifacts/training_engine/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.pyc
