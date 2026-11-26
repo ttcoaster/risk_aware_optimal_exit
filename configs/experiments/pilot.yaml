@@ -1,0 +1,8 @@
+schema_version: 1
+algorithms: [PPO, A2C, DQN]
+rewards: [R1, R2]
+seeds: [42]
+total_timesteps: 20480
+checkpoints: [2048, 10240, 20480]
+evaluation_seed: 42
+torch_threads: 1

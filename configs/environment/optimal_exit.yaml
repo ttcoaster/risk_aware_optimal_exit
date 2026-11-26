@@ -1,0 +1,13 @@
+schema_version: 1
+state: S1
+observation_dim: 9
+action_fractions: [0, 0.25, 0.5, 0.75, 1]
+horizon: 60
+initial_shares: 100
+costs: {commission_rate: 0.001, sell_tax_rate: 0.002, slippage_rate: 0.001}
+drawdown_lambda: 0.5
+train_split: train
+evaluation_split: validation
+manifest: data/processed/episodes/episode_manifest.csv
+scaler: artifacts/normalization/s1_train_scaler.json
+feature_dir: data/processed/s1
